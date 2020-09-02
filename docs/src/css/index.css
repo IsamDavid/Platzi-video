@@ -145,18 +145,21 @@ body {
   color: #3f4e65;
 }
 .footer {
-  color: #000;
+  background-color:gray;
+  color: #fff;
   display: flex;
   font-size: 1.5rem;
   font-weight: bold;
   height: 5vh;
   justify-content: flex-end;
+  display:flex;
+  align-items:center
 }
 .footer span {
   margin-right: 3rem;
 }
 .footer > a {
-  color: #000;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
